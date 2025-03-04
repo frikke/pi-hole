@@ -33,7 +33,9 @@ The Pi-hole® is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) th
 
 Those who want to get started quickly and conveniently may install Pi-hole using the following command:
 
-### `curl -sSL https://install.pi-hole.net | bash`
+```bash
+curl -sSL https://install.pi-hole.net | bash
+```
 
 ## Alternative Install Methods
 
@@ -138,7 +140,7 @@ The [pihole](https://docs.pi-hole.net/core/pihole-command/) command has all the 
 
 Some notable features include:
 
-- [Whitelisting, Blacklisting, and Regex](https://docs.pi-hole.net/core/pihole-command/#whitelisting-blacklisting-and-regex)
+- [Allowlisting, Denylisting (fka Whitelisting, Blacklisting), and Regex](https://docs.pi-hole.net/core/pihole-command/#allowlisting-denylisting-and-regex)
 - [Debugging utility](https://docs.pi-hole.net/core/pihole-command/#debugger)
 - [Viewing the live log file](https://docs.pi-hole.net/core/pihole-command/#tail)
 - [Updating Ad Lists](https://docs.pi-hole.net/core/pihole-command/#gravity)
@@ -150,7 +152,7 @@ You can read our [Core Feature Breakdown](https://docs.pi-hole.net/core/pihole-c
 
 ### The Web Interface Dashboard
 
-This [optional dashboard](https://github.com/pi-hole/AdminLTE) allows you to view stats, change settings, and configure your Pi-hole. It's the power of the Command Line Interface, with none of the learning curve!
+This [optional dashboard](https://github.com/pi-hole/web) allows you to view stats, change settings, and configure your Pi-hole. It's the power of the Command Line Interface, with none of the learning curve!
 
 Some notable features include:
 
